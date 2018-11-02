@@ -16,7 +16,7 @@ http://www.blue-zero.com/WebSocket/ 看着还可以，也有 live demo ，但是
 
 ### usage
   `git clone https://github.com/lluck42/websocket_bench`
-  vim main.go and edit origin and userNum
+#### vim main.go and edit origin and userNum
     `var url = "ws://127.0.0.1:9501/001"
     var userNum = 10000`
   `go run main.go`
