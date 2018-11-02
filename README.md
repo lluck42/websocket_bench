@@ -12,11 +12,15 @@ http://www.blue-zero.com/WebSocket/ 看着还可以，也有 live demo ，但是
 （golang.org/x/net/websocket 这个包在 github上的地址镜像为 github/golang/net/websocket, 需copy 到 golang.org/x/net/websocket 目录才能使用）
 
 
-usage
+### usage
   git clone https://github.com/lluck42/websocket_bench
-vim main.go and edit origin and userNum
+  vim main.go and edit origin and userNum
+  (```)
+    var url = "ws://127.0.0.1:9501/001"
+    var userNum = 10000
+  (```)
   go run main.go
-close
+### close
   ctrl+c
 
 
