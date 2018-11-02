@@ -1,5 +1,7 @@
 # websocket_bench
 
+### why
+
 github上没找到合适的 websocket 测试工具，虽说有js版的，但是却不知道为何需要 python 2.7 的支持，不想卸载 3.0 版本的
 
 FarhadF/websocket_benchmark 的 benchmash 也比较不错，但 websocket.client 依赖中却少写了关键的 origin 地址，和未知原因导致的连接不能维持
@@ -13,13 +15,11 @@ http://www.blue-zero.com/WebSocket/ 看着还可以，也有 live demo ，但是
 
 
 ### usage
-  git clone https://github.com/lluck42/websocket_bench
+  `git clone https://github.com/lluck42/websocket_bench`
   vim main.go and edit origin and userNum
-  (```)
-    var url = "ws://127.0.0.1:9501/001"
-    var userNum = 10000
-  (```)
-  go run main.go
+    `var url = "ws://127.0.0.1:9501/001"
+    var userNum = 10000`
+  `go run main.go`
 ### close
   ctrl+c
 
