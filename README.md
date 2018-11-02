@@ -13,11 +13,11 @@ http://www.blue-zero.com/WebSocket/ 看着还可以，也有 live demo ，但是
 
 
 usage
-  git clone https://github.com/lluck42/websocket_bench
+git clone https://github.com/lluck42/websocket_bench
 vim main.go and edit origin and userNum
-  go run main.go
+go run main.go
 close
-  ctrl+c
+ctrl+c
 
 
 请给小星星~
